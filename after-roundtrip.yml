@@ -1,0 +1,16 @@
+apiVersion: apps/v1beta1
+kind: StatefulSet
+metadata:
+  creationTimestamp: null
+  name: name
+  namespace: namespace
+spec:
+  serviceName: ""
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers: null
+  updateStrategy: {}
+status:
+  replicas: 0
